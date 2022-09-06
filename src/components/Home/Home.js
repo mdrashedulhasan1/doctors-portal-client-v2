@@ -1,8 +1,8 @@
 import React from 'react';
+import { Footer } from 'react-day-picker';
 import Banner from './Banner';
 import Contact from './Contact';
 import ExceptionalDental from './ExceptionalDental';
-import Footer from './Footer';
 import Info from './Info';
 import MakeAppointment from './MakeAppointment';
 import Reviews from './Reviews';
