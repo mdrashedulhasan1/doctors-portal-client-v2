@@ -4,7 +4,7 @@ import BookingService from './BookingService';
 
 const BookingAppointment = ({date}) => {
     const [services, setServices] = useState([]);
-    const [test, setTest] = useState({});
+    const [test, setTest] = useState(null);
     useEffect(() => {
         fetch('./services.json')
             .then(res => res.json())
@@ -19,7 +19,7 @@ const BookingAppointment = ({date}) => {
             </div>
             <div>
                 {
-                    test && <AppointmentTest date={date} test={test}></AppointmentTest>
+                    test && <AppointmentTest key={test._id} date={date} test={test} setTest={setTest}></AppointmentTest>
                 }
             </div>
         </section>
