@@ -1,5 +1,5 @@
 import React from 'react';
-import { Footer } from 'react-day-picker';
+import Footer from '../Shared/Footer';
 import Banner from './Banner';
 import Contact from './Contact';
 import ExceptionalDental from './ExceptionalDental';

@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div>
-            <div className="footer mt-5">
+            <footer className="footer mt-10">
                 <div>
                     <span className="footer-title">Services</span>
                     <a className="link link-hover">Branding</a>
@@ -24,10 +24,10 @@ const Footer = () => {
                     <a className="link link-hover">Privacy policy</a>
                     <a className="link link-hover">Cookie policy</a>
                 </div>
-            </div>
+            </footer>
             <footer className="footer footer-center p-4">
                 <div>
-                    <p>Copyright © 2022 - All right reserved by ACME Industries Ltd</p>
+                    <p>Copyright © 2022 - All right reserved</p>
                 </div>
             </footer>
         </div>

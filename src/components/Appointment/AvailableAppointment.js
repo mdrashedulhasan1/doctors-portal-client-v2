@@ -4,7 +4,7 @@ import React from 'react';
 const AvailableAppointment = ({date}) => {
     return (
         <div>
-            <h2 className='text-3xl text-center text-primary'>Available Appointments on: {format(date, 'PP')}</h2>
+           <h1 className='text-center text-4xl text-cyan-500'>Available Appointments on: {format(date, 'PP')}</h1> 
         </div>
     );
 };
