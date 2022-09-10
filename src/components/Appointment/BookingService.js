@@ -1,6 +1,6 @@
 import React from 'react';
 
-const BookingService = ({service}) => {
+const BookingService = ({service, setTest}) => {
     const {name, slots} = service;
     return (
         <div className='mt-12'>
@@ -10,7 +10,7 @@ const BookingService = ({service}) => {
                     <p>{slots.length>0? <span>{slots[0]}</span>:<span>Try another date</span>}</p>
                     <p>{slots.length} spaces available</p>
                     <div className="card-actions justify-center">
-                        <button className="btn btn-primary">Booking Appointment</button>
+                        <label htmlFor="my-modal-6" onClick={()=> setTest(service)} className="btn btn-primary">Booking Appointment</label>
                     </div>
                 </div>
             </div>
