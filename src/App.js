@@ -5,6 +5,7 @@ import About from './components/About/About';
 import Navbar from './components/Shared/Navbar';
 import Appointment from './components/Appointment/Appointment';
 import Login from './components/Login/Login';
+import Register from './components/Login/Register';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/about" element={<About></About>} />
         <Route path="/appointment" element={<Appointment></Appointment>} />
         <Route path="/login" element={<Login></Login>} />
+        <Route path="/register" element={<Register></Register>} />
       </Routes>
     </div>
   );
